@@ -14,6 +14,7 @@ public class RetrofitService {
          *          Only created once it is needed
          *          Once the instance is created, the instance won't be changed and the next thread will use the same instance rather to create a new instance.
          */
+        //
 
         if(instance == null){
             synchronized (RetrofitService.class){
